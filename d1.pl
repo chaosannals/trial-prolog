@@ -1,4 +1,4 @@
-% 关系定义 %
+﻿% 关系定义 %
 myrelation(a, b).
 myrelation(c, d).
 
