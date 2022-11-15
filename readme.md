@@ -15,6 +15,7 @@
 - your_relation(a,b) 定义关系（类似公设。）
 - your_relation(A,B) :- your_relation(B,A), your_relation_other(A). 定义规则（推导逻辑，如果左一条关系成立，可推导出右一到多条关系也成立。）
 - your_relation(A,B) :- \+ your_relation(B, A). 否定关系用 \+ 前缀 
+- is 赋值，规则里可定义新变量
 
 ```prolog
 [your_prolog_file].
